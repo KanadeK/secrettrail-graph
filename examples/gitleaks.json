@@ -1,0 +1,8 @@
+[
+  {"Secret":"LLM_FAKE_ALPHA_7a9K2mP4qR8x","Date":"2026-01-02T09:00:00Z","File":"config/dev.env","Commit":"a1"},
+  {"Secret":"LLM_FAKE_BRAVO_5c8N1tV6yW3z","Date":"2026-01-03T10:00:00Z","File":"services/payments/.env","Commit":"b2"},
+  {"Secret":"LLM_FAKE_CHARLIE_9h2D4kL7pQ1s","Date":"2026-01-04T11:00:00Z","File":"infra/values.yaml","Commit":"c3"},
+  {"Secret":"LLM_FAKE_DELTA_6f3J8rT2uX5v","Date":"2026-01-05T12:00:00Z","File":"scripts/deploy.sh","Commit":"d4"},
+  {"Secret":"LLM_FAKE_ALPHA_7a9K2mP4qR8x","Date":"2026-01-09T09:00:00Z","File":"config/dev.env","Commit":"a5"},
+  {"Secret":"LLM_FAKE_CHARLIE_9h2D4kL7pQ1s","Date":"2026-01-12T09:00:00Z","File":"infra/values.yaml","Commit":"c6"}
+]

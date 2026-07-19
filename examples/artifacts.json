@@ -1,0 +1,6 @@
+[
+  {"token":"LLM_FAKE_ALPHA_7a9K2mP4qR8x","created_at":"2026-01-10T11:00:00Z","name":"ci/build-100.log"},
+  {"token":"LLM_FAKE_BRAVO_5c8N1tV6yW3z","created_at":"2026-01-11T11:00:00Z","name":"ci/test-101.log"},
+  {"token":"LLM_FAKE_CHARLIE_9h2D4kL7pQ1s","created_at":"2026-01-13T11:00:00Z","name":"artifacts/release.zip"},
+  {"token":"LLM_FAKE_DELTA_6f3J8rT2uX5v","created_at":"2026-01-14T11:00:00Z","name":"artifacts/deploy.tar"}
+]
