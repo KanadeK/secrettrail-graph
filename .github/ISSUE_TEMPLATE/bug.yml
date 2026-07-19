@@ -1,0 +1,15 @@
+name: Bug report
+description: Report a reproducible defect without sensitive data.
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Remove all real credentials, logs, and personal data.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Include sanitized commands and expected behavior.
+    validations:
+      required: true

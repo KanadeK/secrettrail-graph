@@ -1,0 +1,13 @@
+name: Feature request
+description: Suggest an improvement to secret propagation investigations.
+body:
+  - type: textarea
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
