@@ -14,7 +14,15 @@ if "## [0.1.0]" not in (root / "CHANGELOG.md").read_text(encoding="utf-8"):
 if not (root / "dist-release" / "SHA256SUMS.txt").is_file():
     raise SystemExit("Release artifacts have not been packaged.")
 subprocess.run([sys.executable, "scripts/verify.py"], cwd=root, check=True)
-for marker in ("TODO", "FIXME", "NotImplemented", "placeholder", "coming soon", "lorem ipsum"):
+markers = (
+    "TO" + "DO",
+    "FIX" + "ME",
+    "Not" + "Implemented",
+    "place" + "holder",
+    "coming" + " soon",
+    "lorem" + " ipsum",
+)
+for marker in markers:
     result = subprocess.run(
         ["git", "grep", "-n", marker, "--", ":!docs/ROADMAP.md"],
         cwd=root,
