@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="390" viewBox="0 0 960 390" role="img" aria-label="Sanitized SecretTrail Graph demo report">
+  <rect width="960" height="390" fill="#f8fafc"/>
+  <rect x="30" y="25" width="900" height="340" rx="14" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="65" y="80" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#17212b">SecretTrail Graph</text>
+  <text x="65" y="112" font-family="system-ui,sans-serif" font-size="16" fill="#475569">Offline, sanitized propagation report · 4 timelines · 16 findings</text>
+  <line x1="145" y1="190" x2="790" y2="190" stroke="#0f766e" stroke-width="5"/>
+  <g font-family="system-ui,sans-serif"><circle cx="145" cy="190" r="25" fill="#0f766e"/><circle cx="360" cy="190" r="25" fill="#0f766e"/><circle cx="575" cy="190" r="25" fill="#0f766e"/><circle cx="790" cy="190" r="25" fill="#0f766e"/><text x="105" y="245" font-size="15" fill="#17212b">commit</text><text x="330" y="245" font-size="15" fill="#17212b">scanner</text><text x="542" y="245" font-size="15" fill="#17212b">CI log</text><text x="752" y="245" font-size="15" fill="#17212b">artifact</text></g>
+  <rect x="65" y="290" width="145" height="38" rx="19" fill="#dcfce7"/><text x="85" y="315" font-family="system-ui,sans-serif" font-size="15" fill="#047857">masked values</text>
+  <text x="250" y="315" font-family="ui-monospace,monospace" font-size="15" fill="#334155">sha256:••••••••••••••••••••</text>
+</svg>
